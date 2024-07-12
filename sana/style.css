@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width:100%;
+    background: url("bgport.jpg") center/cover no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    position:relative;
+    font-family: sans-serif;
+
+}
+.navbar{
+    width:75%;
+    display:flex;
+    margin:auto;
+    padding:20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+   width:160px;
+   cursor: pointer;
+   margin-top:-2%;
+   margin-left: -6%;
+   background-color: palevioletred;
+
+}
+ul {
+    margin-top: -4%;
+}
+ul li {
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight:lighter;
+    text-decoration: none;
+    color: aqua;
+    margin-top: -3%;
+    transition: 4s ease;
+}
+ul li a:hover{
+    color: white;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+
+}
+.info h1{
+    font-size:40px;
+    color: white;
+     line-height: 1;
+}
+.info h3{
+    font-size:30px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: aqua;
+
+}
+.info p{
+    color: aqua;
+    font-size: 25px;
+    line-height:1.5;
+}
+.info span{
+    color:crimson;
+}
+.image {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    right: 150px;
+
+    top: 40px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    width: 400px; /* Adjust the width */
+    height: 400px; /* Adjust the height */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+    border: 2px solid #007bff; /* Optional: Add a border around the circle */
+}
+.home-sci {
+    display: flex;
+    justify-content: center; /* Center align the icons */
+    margin-top: 20px; /* Add space above the social icons */
+}
+
+.home-sci a {
+    font-size: 50px; /* Adjust the size of the icons */
+    color: aqua; /* Color of the icons */
+    margin: 0 10px; /* Space between the icons */
+    transition: color 0.4s ease;
+}
+
+.home-sci a:hover {
+    color: white; /* Color change on hover */
+}
+
+/* Adjust the margin for the .home-sci container */
+.main .home-sci {
+    margin-left: -20px; /* Move the icons slightly to the left */
+}
+.btn-box {
+    display: block; /* Ensure button appears on a new line */
+    text-align: center; /* Center-align the button */
+    margin-top: 20px; /* Add space between icons and button */
+    color: white;
+    background-color: aqua;
+    padding: 12px 28px;
+    border-radius: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.btn-box:hover {
+    background-color: #007bff;
+}
+/* About Section */
+    .About {
+        width: 100%;
+        background: url("bgport.jpg") center/cover no-repeat;
+        padding: 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .about-content {
+        width: 86%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+    
+    
+    
+    .about-text {
+        max-width: 600px;
+    }
+    
+    .about-text h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    .about-text h2 span {
+        color: crimson;
+    }
+    
+    .about-text h5 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: aqua;
+    }
+    
+    .about-text p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    .about-text button {
+        padding: 12px 28px;
+        font-size: 16px;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: background-color 0.4s ease;
+    }
+    
+    .about-text button:hover {
+        background-color: aqua;
+    }
+
+    .WHATIDO {
+        width: 100%;
+        background: url("bgport.jpg") center/cover no-repeat;
+        padding: 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .what-i-do-content {
+        width: 86%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+    .what-i-do-text {
+        max-width: 600px;
+    }
+    .what-i-do-text h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: crimson;
+    }
+    .what-i-do-text p {
+        font-size: 18px;
+        color: aliceblue;
+    }
+   /* Resume Section */
+.resume {
+    width: 100%;
+        background: url("bgport.jpg") center/cover no-repeat;
+        padding: 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+.resume-summary, .resume-education, .resume-experience, .resume-skills, .resume-certifications, .resume-projects, .resume-publications, .resume-awards, .resume-references {
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 28px;
+    color: crimson;
+    margin-bottom: 30px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    color: aquamarine;
+}
+ul li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    
+}
+h4 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: whitesmoke;
+}
+/* Contact Me Section */
+.contact-me {
+    width: 100%;
+    background: url("bgport.jpg") center/cover no-repeat;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-me h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: crimson;
+}
+
+.contact-me .container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 12px 28px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+.contact-form button:hover {
+    background-color: aqua;
+}
+
+.contact-social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-social h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+
+.contact-social .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-social .social-icons a {
+    font-size: 30px;
+    color: aqua;
+    margin: 0 10px;
+    transition: color 0.4s ease;
+}
+
+.contact-social .social-icons a:hover {
+    color: #007bff;
+}
+
